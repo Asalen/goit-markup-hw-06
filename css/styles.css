@@ -701,6 +701,7 @@ img {
     right: 8px;
     width: 30px;
     height: 30px;
+    outline: none;
     background-color: var(--main-background-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
@@ -711,6 +712,11 @@ img {
 
 .modal-btn-svg {
     fill: var(--some-text-color);
+}
+
+.modal-btn-svg:hover,
+.modal-btn-svg:focus {
+    fill: var(--accent-color);
 }
 
 
