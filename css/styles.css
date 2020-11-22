@@ -850,6 +850,14 @@ img {
     background-color: var(--accent-color);
 }
 
+.send-btn:hover,
+.send-btn:focus {
+    color: var(--accent-color);
+    background-color: var(--section-background-color);
+    border: 1px solid var(--accent-color);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 
 /* Карточки проектов overflow */
 
